@@ -1,0 +1,37 @@
+{
+  "name": "@mscs/eslint-config",
+  "version": "0.1.0-DEV",
+  "description": "The mscs eslint configurations",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "eslint ./*.js"
+  },
+  "main": "base.js",
+  "author": "Jason Schilling <jschilling@media-service.com>",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "*.js",
+    "yarn.lock"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.22.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1"
+  }
+}
