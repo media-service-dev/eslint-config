@@ -1,6 +1,6 @@
 {
   "name": "@mscs/eslint-config",
-  "version": "0.1.1-DEV",
+  "version": "0.1.1",
   "description": "The mscs eslint configurations",
   "keywords": [
     "eslint",
