@@ -20,18 +20,18 @@
     "yarn.lock"
   ],
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-simple-import-sort": "^5.0.2"
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.24.0",
-    "typescript": "^3.8.3"
+    "@typescript-eslint/parser": "^4.4.1",
+    "typescript": "^4.0.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-simple-import-sort": "^5.0.2"
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-simple-import-sort": "^5.0.3"
   }
 }
