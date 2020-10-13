@@ -111,13 +111,12 @@ module.exports = {
         "no-nested-ternary": "error",
         "no-trailing-spaces": "error",
         "padded-blocks": ["error", { "classes": "always" }],
-        // @todo to discuss
-        // "padding-line-between-statements": [
-        //     "error",
-        //     { blankLine: "always", prev: "*", next: "return" },
-        //     { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
-        //     { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"] },
-        // ],
+        "padding-line-between-statements": [
+            "error",
+            { blankLine: "always", prev: "*", next: "return" },
+            { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
+            { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"] },
+        ],
         "object-curly-spacing": [
             "error",
             "always",
