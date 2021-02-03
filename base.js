@@ -15,6 +15,9 @@ module.exports = {
     },
     extends: [
         "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
         "plugin:@typescript-eslint/eslint-recommended",
     ],
     parser: "@typescript-eslint/parser",
@@ -24,6 +27,7 @@ module.exports = {
     },
     plugins: [
         "simple-import-sort",
+        "import",
         "@typescript-eslint",
     ],
     ignorePatterns: ["node_modules/", "dist/"],
@@ -39,14 +43,12 @@ module.exports = {
             },
         ],
         "sort-imports": "off",
-        "simple-import-sort/sort": [
-            "error",
-            {
-                // The default grouping, but with no blank lines.
-                groups: [["^\\u0000", "^@?\\w", "^[^.]", "^\\."]],
-            },
-        ],
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
         "no-duplicate-imports": "error",
+        "import/first": "error",
+        "import/newline-after-import": "error",
+        "import/no-duplicates": "error",
         "generator-star-spacing": [
             "error",
             "after",
